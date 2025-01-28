@@ -70,6 +70,7 @@ body {
 /* Eliminazione dei puntini predefiniti delle UL */
 ul {
     list-style: none;
+    padding-bottom: px;
 
 }
 
@@ -138,4 +139,14 @@ il colore di ciascun contenitore viene impostato singolarmente nelle righe sotto
 /* Lo spazio tra le UL */
 .List-padding {
     padding-bottom: 20px;
+}
+
+/* Spazio tra i punti della lista */
+li {
+    padding-bottom: 20px;
+}
+
+/* Spazio tra gli H3 della lista e le sottoliste */
+h3 {
+    padding-bottom: 10px;
 }
